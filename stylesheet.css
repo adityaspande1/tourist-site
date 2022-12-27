@@ -1,0 +1,114 @@
+body{
+    /* background-image: url(nap1.jpeg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-color:rgb(252, 153, 5);
+}
+#navbar{
+    display:relative;
+    position:relative;
+    
+    margin-top: 0px ;
+    background-image: url(nap1.jpeg);background-repeat:  no-repeat;background-size: cover;
+    height:350px ;
+    border-radius: 10px;
+    background-color: #4c4747;
+    background-blend-mode: color;
+   
+    
+}#navbar::before{
+    /* position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+    z-index: -1;
+    background-color: #000000; */
+    position: absolute;
+    opacity: 0.8;
+    background-image: url(nap1.jpeg);background-repeat:  no-repeat;background-size: cover;
+    height:350px ;
+    border-radius: 10px;
+}
+#navbar ul{
+    display:flex ;
+    list-style: none;
+    text-align: center;
+}#navbar ul li a {
+     text-decoration:none ;
+     color: white;
+     margin:8px;
+     font-size: 20px;
+     display: block;
+     text-align: center ;
+     cursor: pointer;
+     
+}
+#navbar ul li a:hover{
+    background-color: orange;
+    border: 2px solid rgb(251, 190, 9);
+    border-radius: 11px;
+    box-shadow: 2px 2px 8px orangered ;
+    color:black;
+
+}#navbar h1{
+    display: block;
+    margin-left: 273px;
+    font-size: 88px;
+    margin-top: 55px;
+    color: orange;
+}
+.l{
+    margin-top:33px ;
+    align-items: center;
+}#home
+{   position: relative;
+    background-color:rgb(231, 174, 68);
+    margin-top: 0%;
+    width:90%;
+    align-self: center;
+    justify-content: center;
+    margin-left:57px;
+    border: 2px solid orange;
+     border-radius: 5px;}
+#home h1,p{
+  text-align: center;
+}#home img{
+    display: inline-block;
+    margin-left:20px ;
+    border-radius: 12px;
+}#home p span{
+    display:grid;
+
+}#home p{
+    font-size: 25px;
+}#home h1:hover{
+    box-shadow: 2px 2px 6px red;
+    border-radius: 10px;
+}#home1{
+    width: 90%;
+    background-color:rgb(231, 174, 68);
+    align-self: center;
+    margin-left: 60px;
+}
+#home1 h1{
+    text-align: center;
+}#home1 img{
+    display: inline-block;
+    margin-left:20px ;
+    border-radius: 12px;
+}
+#home1 p{
+    display: grid;
+    font-size: 25px;
+}#home1 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}#home1 a ,.img1:hover{
+   height: 55px;
+   font-size: 20px;
+}
